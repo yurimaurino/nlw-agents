@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>eSports</title>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Logo eSports nlw">
+  </header>
+  <main>
+    <section>
+      <div>  
+        <h2>Assistente de Meta </h2>
+        <p>Pergunte sobre estratégias, build e dicas para seus jogos!</p>
+
+        <form>
+          <input type="password" placeholder="Informe a API KEY do Gemini" required/>
+
+          <select>
+            <option value="">Selecione um jogo</option>
+            <option value="valorant">Valorant</option>
+            <option value="lol">League of Legends</option>
+            <option value="CS2">Counter Strike 2</option>
+          </select>
+          
+          <input type="text" placeholder="Ex: Melhor build ADC..." required/>
+
+          <button>
+            Perguntar
+          </button>
+        </form>
+
+        <div id="aiResponse">
+          <div class="response-content">
+
+          </div>
+        </div>
+
+      </div>
+      </section>
+  </main>
+</body>
+</html>
+
